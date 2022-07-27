@@ -22,6 +22,7 @@ public class DemoThread {
 		// TODO Auto-generated method stub
 		 ChildThread t=new ChildThread();
 		   t.start();
+		   int n = 10;
 		   
 		for (int i=0;i<10;i++)
 		{
